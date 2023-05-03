@@ -2,7 +2,7 @@ if game.PlaceId == 7211666966 then
     getgenv().Message = true
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
     
-    getgenv().AutoFarm = true
+    getgenv().AutoFarm = 
     
     function AutoFarm ()
         while getgenv().AutoFarm == true do
