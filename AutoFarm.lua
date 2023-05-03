@@ -33,3 +33,7 @@ if getgenv().Message == true then
 	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(msg, "All")
     end
 end
+--[[
+yes
+
+]]
