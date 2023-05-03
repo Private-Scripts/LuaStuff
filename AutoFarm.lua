@@ -1,4 +1,5 @@
 if game.PlaceId == 7211666966 then
+    getgenv().Message = true
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
     
     getgenv().AutoFarm = true
@@ -27,7 +28,8 @@ if game.PlaceId == 7211666966 then
             
         end    
     })
-
+if getgenv().Message == true then
     local msg = "[AutoFarm Loaded!] Version: 1.0.0"
 	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(msg, "All")
+    end
 end
